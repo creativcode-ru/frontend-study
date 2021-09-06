@@ -26,15 +26,20 @@ namespace study
                 app.UseDeveloperExceptionPage();
             }
 
+            // подключаем статические файлы
+            app.UseStaticFiles();
+            // подключаем файлы по умолчанию
+            app.UseDefaultFiles();
+
             app.UseRouting();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
         }
     }
 }

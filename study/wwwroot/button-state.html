@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+
+        p.container {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+
+        .tst {
+            /*сброс стилей*/
+            padding: 4px 8px;
+            border: 1px solid gray;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+            /*базовые стили платформы*/
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            /* transition: background 2s ease-in-out, transform 2s ease;*/
+        }
+
+            .tst:hover {
+                border: 1px solid cyan;
+            }
+
+            .tst:active {
+                background-color: cyan;
+                transform: translateY(1px);
+                transition: background 250ms ease-in-out, transform 150ms ease;
+            }
+
+
+
+        .btn {
+            border: none;
+            cursor: pointer;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 4px;
+            font-size: 22px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+            background: #2196F3;
+            margin: 0 20px;
+        }
+
+            .btn:hover {
+                opacity: 0.9;
+            }
+
+            .btn:active {
+                box-shadow: none; /*нажатие*/
+            }
+
+        .btn {
+            position: relative;
+            overflow: hidden;
+        }
+
+            .btn:after {
+                content: '';
+                position: absolute;
+                top: 50%; /*начальные кооординаты по центру*/
+                left: 50%;
+                width: 8px; /*начальный размер элемента*/
+                height: 8px;
+                background: rgba(255, 255, 255, .5); /*полупрозрачный белый фон*/
+                opacity: 0; /*100% прозрачность - скрыть полупрозрчный кружок*/
+                border-radius: 100%; /*зааёт окружность*/
+                transform: scale(1, 1) translate(-50%); /*начальный размер, точно по центру (компенсация ширины объекта)*/
+                transform-origin: 50% 50%; /* -- значение по умолчанию, анимация относительно центра*/
+            }
+
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0); /*сначала уменьшаем, до нуля*/
+                opacity: 0;
+            }
+
+            20% {
+                transform: scale(25, 25); /*Увеличиваем в 25 раз*/
+                opacity: 1; /* и максимальная видимость*/
+            }
+
+            100% {
+                opacity: 0;
+                transform: scale(40, 40);
+            }
+        }
+
+        button.btn:focus:not(:active)::after {
+            animation: ripple 1s ease-out;
+        }
+
+        a.btn {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            transform: translateY(-3px);
+        }
+
+            a.btn:active::after {
+                animation: ripple 1s ease-out;
+                animation-delay: 0.3s;
+            }
+
+        .btn:focus {
+            color: red; /*ссылка теряет фокус сразу после клика, кнопка после фокуса на другом эементе*/
+        }
+    
+    </style>
+</head>
+<body>
+    <p class="container">
+        <button class="tst">
+            Кнопка
+        </button>
+
+        <button class="btn">
+            Кнопка
+        </button>
+
+        <a class="btn" href="button-state.html">
+            Ссылка
+        </a>
+    </p>
+
+</body>
+</html>
