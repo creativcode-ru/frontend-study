@@ -2,7 +2,7 @@
 
 # Инструменты разработки
 
-В этом видео рассматриваются установка Viual Studio и публикация пустого проекта .Net Core в облачный репозитарий GitHub  
+В этом видео рассматривается установка Viual Studio и публикация пустого проекта .Net Core в облачный репозитарий GitHub  
 * [Бесплатная официальная версия Visual Studio Community](https://visualstudio.microsoft.com/ru/vs/community/)
 * [Репозитарий исходного кода GitHub](https://github.com/)
 
