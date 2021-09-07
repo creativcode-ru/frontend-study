@@ -12,7 +12,9 @@
 📎 [Material Design Button "ripple" effect animation (pure CSS) codepen.io](https://codepen.io/lehollandaisvolant/pen/dMQXYX)  
 📎 [How to Recreate the Ripple Effect of Material Design Buttons (css-tricks.com)](https://css-tricks.com/how-to-recreate-the-ripple-effect-of-material-design-buttons/)  
 
-📺 [Все о CSS переходах (transitions) за 16 минут. CSS анимация. Часть первая](https://youtu.be/yZFg3cuq_LU)
+☕ Освежите свои знания о css анимации:  
+
+📺 [Все о CSS переходах (transitions) за 16 минут. CSS анимация. Часть первая](https://youtu.be/yZFg3cuq_LU)  
 📺 [CSS transform. 2D и 3D трансформации translate, scale, rotate и другие](https://youtu.be/uQEGUpsnqsw)
 
 * учебное видео:      
