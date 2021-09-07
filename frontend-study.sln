@@ -5,10 +5,11 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{34C54E9C-CEED-4381-BC7A-2E2D0F145824}"
 	ProjectSection(SolutionItems) = preProject
+		engine.md = engine.md
 		Doc\test.txt = Doc\test.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "study", "study\study.csproj", "{3B134D16-50E6-4B92-AF0B-48B0A8135999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "study", "study\study.csproj", "{3B134D16-50E6-4B92-AF0B-48B0A8135999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
