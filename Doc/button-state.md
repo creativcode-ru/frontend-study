@@ -12,6 +12,7 @@
 📎 [Material Design Button "ripple" effect animation (pure CSS) codepen.io](https://codepen.io/lehollandaisvolant/pen/dMQXYX)  
 📎 [How to Recreate the Ripple Effect of Material Design Buttons (css-tricks.com)](https://css-tricks.com/how-to-recreate-the-ripple-effect-of-material-design-buttons/)  
 
+
  <p>
         <img src="https://yt3.ggpht.com/ytc/AKedOLSlgx_XoqhCWgsNEvgt8a1RruoT3W1F2uD1SBh0=s88-c-k-c0x00ffffff-no-rj" alt="Avatar" style="vertical-align: middle; width: 40px; height: 40px; border-radius: 100%; ">
  </p>
