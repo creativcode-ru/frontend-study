@@ -2,8 +2,8 @@
 [<img align="right" width="96px" title="Веб студия CREATIVcode в Сочи" src="http://creativcode.ru/img/app/logo-page.png" />](http://creativcode.ru)  
 Изучение различных вопросов фронтенд разработки. Примеры.  
 
-## [Инструменты разработки →](Doc/upload.md) 
-Скачайте бесплатную версию Visual Studio и зарегестрируйтесть на GitHub
+## [Инструменты разработки →](Doc/engine.md) 
+
 
 <br /><br />
 <p align="center">
