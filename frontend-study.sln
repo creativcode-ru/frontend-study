@@ -5,7 +5,6 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{34C54E9C-CEED-4381-BC7A-2E2D0F145824}"
 	ProjectSection(SolutionItems) = preProject
-		Doc\button-state = Doc\button-state
 		Doc\button-state.md = Doc\button-state.md
 		Doc\engine.md = Doc\engine.md
 		Doc\your-site.md = Doc\your-site.md
