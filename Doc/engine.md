@@ -11,5 +11,5 @@
 </p>
 
 ## Ресурсы:  
-* [Бесплатная официальная версия Visual Studio Community](https://visualstudio.microsoft.com/ru/vs/community/)
+🔽 [Бесплатная официальная версия Visual Studio Community](https://visualstudio.microsoft.com/ru/vs/community/)
 
