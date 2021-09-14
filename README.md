@@ -4,6 +4,9 @@
 
 ## [Инструменты разработки →](Doc/engine.md) 
 
+## [Несколько проектов в одном решении Visual Studio 2019 →](Doc/multi.md) 
+
+
 
 <br /><br />
 <p align="center">
