@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{34C54E9C-CEE
 	ProjectSection(SolutionItems) = preProject
 		Doc\button-state.md = Doc\button-state.md
 		Doc\engine.md = Doc\engine.md
+		Doc\multi.md = Doc\multi.md
 		Doc\your-site.md = Doc\your-site.md
 	EndProjectSection
 EndProject
