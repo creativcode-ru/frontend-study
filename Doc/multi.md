@@ -4,10 +4,9 @@
 
 В этом видео посмотрим, как поместить в одно решение Visual Studio несколько проектов, или вообще, сделать решение без всякого проекта, например для хранения файлов дизайна или документации.
 
-<!---
 <p align="center">
-   <a  href="https://youtu.be/..." target="_blank" title="Инструменты" >
-       <img src="https://img.youtube.com/vi/.../mqdefault.jpg" width="320" height="180" alt="Фронтенд">
+   <a  href="https://youtu.be/VIN-lN0X1ys" target="_blank" title="Инструменты" >
+       <img src="https://img.youtube.com/vi/VIN-lN0X1ys/mqdefault.jpg" width="320" height="180" alt="Фронтенд">
    </a>
 </p>
--->
+
