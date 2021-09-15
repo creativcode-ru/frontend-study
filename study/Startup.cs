@@ -26,12 +26,13 @@ namespace study
                 app.UseDeveloperExceptionPage();
             }
 
-            // подключаем статические файлы
-            app.UseStaticFiles();
             // подключаем файлы по умолчанию
             app.UseDefaultFiles();
+            // подключаем статические файлы после  app.UseDefaultFiles(); 
+            app.UseStaticFiles();
+          
 
-            app.UseRouting();
+            //app.UseRouting();
 
             //app.UseEndpoints(endpoints =>
             //{
