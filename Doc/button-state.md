@@ -9,7 +9,9 @@
  
 
 <p align="center">
-учебное видео 📺 скоро:)
+ <a  href="https://youtu.be/IVCnKbOOhdM" target="_blank" title="CSS анимация кнопки" >
+       <img src="https://img.youtube.com/vi/IVCnKbOOhdM/mqdefault.jpg" width="320" height="180" alt="видео: CSS анимация кнопки">
+   </a>
 </p>
 
 ## Ресурсы:  
