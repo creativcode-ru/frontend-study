@@ -8,7 +8,7 @@
 
 ## [CSS анимация кнопки →](Doc/button-state.md) 
 
-## [CSS Свой сайт на Github, как опубликовать сайт в интернете →](Doc/your-site.md) 
+## [Свой сайт на Github, как опубликовать сайт в интернете →](Doc/your-site.md) 
 
 
 
